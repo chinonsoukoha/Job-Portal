@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Complete Profile</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="css/signupform.css">
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <section id=nav-bar>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home2.html" style="font-weight: bold;color: black;">LOGO</a>
+            </div>
+        </nav>
+    </section>
+    <!--HTML Code-->
+    <section>
+        <div class="content">
+            <div class="header">
+                <div class="container text-center ">
+                    <h1>Complete Your Profile</h1>
+                    <p class="text-muted mb-5">Complete your profile to stand out to recruiters</p>
+                </div>
+            </div>
+            <div class="container">
+                <form action="userprofile.html">
+                    <h3 class="text-center mb-4" style="color:rgb(24, 24, 51)">Skills & Experience</h3>
+                    <hr class="mb-4" style="color: rgb(79,79,148);">
+                    <label>Skills:</label>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Skill 1">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <div class="form-group">
+                                <label for="formControlRange" class="text-muted">Proficiency</label>
+                                <input type="range" class="form-control-range slider mb-2" id="range1">
+                                <p style="font-weight: 200;">Value: <span id="demo1"></span></p>
+                            </div>
+                            <script>
+                                var slider1 = document.getElementById("range1");
+                                var output1 = document.getElementById("demo1");
+                                output1.innerHTML = slider1.value; // Display the default slider value
+
+                                // Update the current slider value (each time you drag the slider handle)
+                                slider1.oninput = function () {
+                                    output1.innerHTML = this.value;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Skill 2">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <div class="form-group">
+                                <label for="formControlRange" class="text-muted">Proficiency</label>
+                                <input type="range" class="form-control-range slider mb-2" id="range2">
+                                <p style="font-weight: 200;">Value: <span id="demo2"></span></p>
+                            </div>
+                            <script>
+                                var slider2 = document.getElementById("range2");
+                                var output2 = document.getElementById("demo2");
+                                output2.innerHTML = slider2.value; // Display the default slider value
+
+                                // Update the current slider value (each time you drag the slider handle)
+                                slider2.oninput = function () {
+                                    output2.innerHTML = this.value;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Skill 3">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <div class="form-group">
+                                <label for="formControlRange" class="text-muted">Proficiency</label>
+                                <input type="range" class="form-control-range slider mb-2" id="range3">
+                                <p style="font-weight: 200;">Value: <span id="demo3"></span></p>
+                            </div>
+                            <script>
+                                var slider3 = document.getElementById("range3");
+                                var output3 = document.getElementById("demo3");
+                                output3.innerHTML = slider3.value; // Display the default slider value
+
+                                // Update the current slider value (each time you drag the slider handle)
+                                slider3.oninput = function () {
+                                    output3.innerHTML = this.value;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Skill 4">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <div class="form-group">
+                                <label for="formControlRange" class="text-muted">Proficiency</label>
+                                <input type="range" class="form-control-range slider mb-2" id="range4">
+                                <p style="font-weight: 200;">Value: <span id="demo4"></span></p>
+                            </div>
+                            <script>
+                                var slider4 = document.getElementById("range4");
+                                var output4 = document.getElementById("demo4");
+                                output4.innerHTML = slider4.value; // Display the default slider value
+
+                                // Update the current slider value (each time you drag the slider handle)
+                                slider4.oninput = function () {
+                                    output4.innerHTML = this.value;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <label>Experience</label>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Comapany">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <textarea style="padding-bottom: 40px;" class="form-control mb-3" id="career" type="text"
+                                placeholder="Experience Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Comapany">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <textarea style="padding-bottom: 40px;" class="form-control mb-3" id="career" type="text"
+                                placeholder="Experience Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Comapany">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <textarea style="padding-bottom: 40px;" class="form-control mb-3" id="career" type="text"
+                                placeholder="Experience Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3">
+                            <input type="text" class="form-control" placeholder="Comapany">
+                        </div>
+                        <div class="col-sm-8 mb-3">
+                            <textarea style="padding-bottom: 40px;" class="form-control mb-3" id="career" type="text"
+                                placeholder="Experience Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-6 offset-3">
+                        <input type="submit" value="Complete Profile" class="btn1 mt-5 mb-3">
+                    </div>
+                    <div class="link text-center">
+                        <a href="userprofile.html">Skip this step</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Font Awesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!--Popper JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

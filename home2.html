@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <!--CSS Stylesheet-->
+        <link rel="stylesheet" href="css/home2.css">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Font Awesome CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <section id=nav-bar>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="home2.html" style="font-weight: bold;color: black;">LOGO</a>
+                    <button style="padding-right: 0; outline: none; border: none;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" id="login" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="signup" href="signup.html">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Post a Job</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jobs1.html">Want a Job?</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+            </section>
+            <!--Banner-->
+            <section class="top">
+            <div class="banner text-center">
+            </div>
+            <div class="search-job text-center">
+                <p>Search for jobs available in your Region</p>
+                <input type="text" class="form-control" placeholder="Search Keyword">
+                <input type="text" class="form-control" placeholder="Company">
+                <input type="text" class="form-control" placeholder="Location"><br>
+                <input type="button" class="btn" id="button" value="Find Jobs">
+            </div>
+            </section>
+            <!--Featured Jobs-->
+            <section id="jobs">
+                <h1 class="text-center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Featured
+                    Jobs</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="company-details">
+                                    <div class="job-update">
+                                        <a href="#" style="font-size: 25px;">Senior Python Developer</a><br>
+                                        <a href="#">Microsoft</a><br>
+                                        <i class="fa fa-star" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px; color: rgb(187, 181, 255);"></i><span><b> 4.7</b></span><br>
+                                        <i class="fa fa-briefcase" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px;color: rgb(187, 181, 255);"></i><span><b> 0-1
+                                                yrs</b></span><br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 17px;color: rgb(187, 181, 255);"></i><span><b>Silicon Valley,
+                                                California</b></span><br>
+                                        <p style="text-align: right;"><b style="color: rgb(53, 53, 90);">Skills:</b></i><small>Java</small>
+                                            <small>Python</small><small>HTML, CSS</small><small>.Net</small>
+                                        </p>
+                                    </div>
+                                    <div class="apply-btn">
+                                        <button type="button" class="btn btn-primary"><b>Apply</b></button>
+                                    </div>
+                                </div>
+                                <div class="company-details">
+                                    <div class="job-update">
+                                        <a href="#" style="font-size: 25px;">Senior Python Developer</a><br>
+                                        <a href="#">Microsoft</a><br>
+                                        <i class="fa fa-star" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px; color: rgb(187, 181, 255);"></i><span><b> 4.7</b></span><br>
+                                        <i class="fa fa-briefcase" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px;color: rgb(187, 181, 255);"></i><span><b> 0-1
+                                                yrs</b></span><br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 17px;color: rgb(187, 181, 255);"></i><span><b>Silicon Valley,
+                                                California</b></span><br>
+                                        <p style="text-align: right;"><b style="color: rgb(53, 53, 90);">Skills:</b></i><small>Java</small>
+                                            <small>Python</small><small>HTML, CSS</small><small>.Net</small>
+                                        </p>
+                                    </div>
+                                    <div class="apply-btn">
+                                        <button type="button" class="btn btn-primary"><b>Apply</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="company-details">
+                                    <div class="job-update">
+                                        <a href="#" style="font-size: 25px;">Senior Python Developer</a><br>
+                                        <a href="#">Microsoft</a><br>
+                                        <i class="fa fa-star" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px; color: rgb(187, 181, 255);"></i><span><b> 4.7</b></span><br>
+                                        <i class="fa fa-briefcase" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px;color: rgb(187, 181, 255);"></i><span><b> 0-1
+                                                yrs</b></span><br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 17px;color: rgb(187, 181, 255);"></i><span><b>Silicon Valley,
+                                                California</b></span><br>
+                                        <p style="text-align: right;"><b style="color: rgb(53, 53, 90);">Skills:</b></i><small>Java</small>
+                                            <small>Python</small><small>HTML, CSS</small><small>.Net</small>
+                                        </p>
+                                    </div>
+                                    <div class="apply-btn">
+                                        <button type="button" class="btn btn-primary"><b>Apply</b></button>
+                                    </div>
+                                </div>
+                                <div class="company-details">
+                                    <div class="job-update">
+                                        <a href="#" style="font-size: 25px;">Senior Python Developer</a><br>
+                                        <a href="#">Microsoft</a><br>
+                                        <i class="fa fa-star" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px; color: rgb(187, 181, 255);"></i><span><b> 4.7</b></span><br>
+                                        <i class="fa fa-briefcase" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 10px;color: rgb(187, 181, 255);"></i><span><b> 0-1
+                                                yrs</b></span><br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"
+                                            style="margin-top: 5px; margin-right: 17px;color: rgb(187, 181, 255);"></i><span><b>Silicon Valley,
+                                                California</b></span><br>
+                                        <p style="text-align: right;"><b style="color: rgb(53, 53, 90);">Skills:</b></i><small>Java</small>
+                                            <small>Python</small><small>HTML, CSS</small><small>.Net</small>
+                                        </p>
+                                    </div>
+                                    <div class="apply-btn">
+                                        <button type="button" class="btn btn-primary"><b>Apply</b></button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </section>
+            <!--Statistics Counter-->
+            <section class="section-2 container-fluid p-0 slide-anim">
+                <div class="cover">
+                   <div class="content text-center">
+                       <h1>Our Stats</h1>
+                       <p>Here are some of our statistical achievements</p>
+                   </div>
+                </div>
+                <div class="container-fluid text-center">
+                      <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                            <div class="rect" data-target="8950">
+                                <h1 class="counter">8950</h1>
+                                <p>Happy Clients</p>
+                            </div>
+                            <div class="rect" data-target="7634">
+                                <h1 class="counter">7634</h1>
+                                <p>Resumes' Submitted</p>
+                            </div>
+                            <div class="rect" data-target="7876">
+                                <h1 class="counter">7876</h1>
+                                <p>Jobs Posted</p>
+                            </div>
+                            <div class="rect" data-target="6786">
+                                <h1 class="counter">6786</h1>
+                                <p>Jobs Gotten</p>
+                            </div>
+                      </div> 
+                </div>
+            </section>
+
+            <!--Top Recruiters-->
+            <hr>
+            <section id="recruiters">
+                <div class="container text-center">
+                    <h1>Top Recruiters</h1>
+                    <div class="logos">
+                    <div class="logos1">
+                        <img src="./images/microsoft.jpg"  width="100px" >
+                        <img src="./images/google.jpg" width="100px">
+                        <img src="./images/Samsung.png" width="100px">
+                        <img src="./images/yahoo.png" width="100px">
+                        <img src="./images/barclays.jpg" width="100px">
+                        <img src="./images/walmart.png" width="100px">
+                    </div>
+                    <div>
+                        <img src="./images/cadbury.png" width="100px">
+                        <img src="./images/coca-cola.png" width="100px">
+                        <img src="./images/sony.png" width="100px">
+                        <img src="./images/Amazon.png" width="100px">
+                        <img src="./images/ebay.png" width="100px">
+                        <img src="./images/pandg.jpg" width="100px">
+                    </div>
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <!--Testimonials-->
+            <section class="container section-4 slide-anim">
+                <div class="container text-center">
+                    <h1>What Our Users Say About Us</h1>
+                </div>
+                <div class="team row">
+                    <div class="col-md-4 text-center">
+                        <div class="card" >
+                            <div class="card-img-top">
+                                <img src="./images/passport3.jpg" class="image-fluid" width="150px">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Sheila Johnson</h3>
+                                <p class="card-text">Best known for aggregating millions of jobs across the internet by scraping websites that list open positions, Job Portal
+                                also provide job reviews where users rank their employers with according to a 5-star scale and list pros and cons.</p>
+                                <p class="text-black-50">CEO at <a class="lnk" href="#">Google</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 text-center">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center">
+                                    <div class="card">
+                                        <div class="card-img-top">
+                                            <img src="./images/passport2.jpg" class="img-fluid" width="150px">
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title"> Alexander Benedict</h3>
+                                            <p class="card-text">Best known for aggregating millions of jobs across the internet by scraping websites that
+                                                list open positions, Job Portal
+                                                also provide job reviews where users rank their employers with according to a 5-star scale and list pros and
+                                                cons.</p>
+                                            <p class="text-black-50">CEO at <a class="lnk" href="#">Google</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <div class="card">
+                                        <div class="card-img-top">
+                                            <img src="./images/passport1.jpg" class="img-fluid" width="150px">
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Daniel Duke</h3>
+                                            <p class="card-text">Best known for aggregating millions of jobs across the internet by scraping websites that
+                                                list open positions, Job Portal
+                                                also provide job reviews where users rank their employers with according to a 5-star scale and list pros and
+                                                cons.</p>
+                                            <p class="text-black-50">CEO at <a class="lnk" href="#">Google</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="./images/passport4.jpg" class="img-fluid" width="150px">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title"> Alexander Benedict</h3>
+                                <p class="card-text">Best known for aggregating millions of jobs across the internet by scraping websites that
+                                    list open positions, Job Portal
+                                    also provide job reviews where users rank their employers with according to a 5-star scale and list pros and
+                                    cons.</p>
+                                <p class="text-black-50">CEO at <a class="lnk" href="#">Google</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--footer-->
+            <footer>
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-one xy">
+                                <h3>Job Portal</h3>
+                                <p>This is an online portal where people can get jobs, post jobs, build networks and upload resumes.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-two xy">
+                                <h3>Useful Links</h3>
+                                <uL>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                </uL>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-three xy">
+                                <h3>Follow Us</h3>
+                                <p>Follow Us on our Social Media Profile in Order to Keep Updated</p>
+                                <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-facebook-f "></i></a>
+                                <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-twitter"></i></a>
+                                <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-four xy">
+                                <h3>Our Newsletter</h3>
+                                <p>Subscribe to our Newsletter</p>
+                                <form action="">
+                                    <div class="input-group">
+                                    <input type="email" placeholder="Email" class="form-control" id="mail">
+                                    <input type="submit" value="Subscribe" class="form-control" id="subscribe">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <section id="footer-foot">
+                <div class="container text-center">
+                    <p>You can insert copyright here</p>
+                </div>
+            </section>
+        <!--Font Awesome JS-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <!--Popper JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <!--Bootstrap JS-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
+        <!--Bootstrap JS-->
+        <script src="./Pluggin/jquery.waypoints.min.js"></script>
+        <script src="./Pluggin/jquery.countup.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+        <script >
+            $('.counter').countUp({
+                    'time': 1000,
+                    'delay': 10
+                });
+        </script>
+        <!--Smooth Scroll-->
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+
+
+            $(window).scroll(function () {
+                $(".slide-anim").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

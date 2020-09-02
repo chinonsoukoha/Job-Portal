@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Email Verification</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS Styles-->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(252, 252, 253);
+        }
+
+        .row {
+            background: white;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px grey;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        .btn1 {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(79, 79, 148);
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .btn1:hover {
+            background-color: white;
+            color: rgb(79, 79, 148);
+            border: 1px solid;
+            cursor: pointer;
+        }
+
+        a {
+            color: rgb(79, 79, 148);
+            font-weight: bold;
+
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: rgb(26, 2, 129);
+
+        }
+
+        h4 {
+            color: rgb(79, 79, 148);
+        }
+    </style>
+    <script>
+        function Email() {
+            window.open("emailVer.html", "_self");
+        }
+    </script>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <section id=nav-bar>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="home2.html" style="font-weight: bold;color: black;">LOGO</a>
+            </div>
+    </nav>
+    <!--HTML Code-->
+    <section class="Form my-4 mx-5">
+        <div class="container text-center">
+            <div class="row no-gutters mt-5">
+                <div class="col-md-12 px-5 pt-5">
+                    <img src="images/mail2.png" width=100px;>
+                    <h4>Check your Email</h4>
+                    <p>We have sent a password Reset Code to the email address associated to your Account</p>
+                    <form action="resetPass.html">
+                        <div class="form-row justify-content-center">
+                            <div class="col-lg-7">
+                                <input required type="text" pattern="[0-9]{6}" title="Enter the 6 digit code sent to your Email" placeholder=" Enter Code" class="form-control my-3 p-2">
+                            </div>
+                        </div>
+                        <div class="form-row justify-content-center">
+                            <div class="col-lg-7">
+                                <input type="submit" value="Send Reset Code" class="btn1 mt-3 mb-5">
+                            </div>
+                        </div>
+                        <a href="login.html">Go to Login Page</a>
+                        <p>Don't have an Account? <a href="signup.html">Register Here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Font Awesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!--Popper JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

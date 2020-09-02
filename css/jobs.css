@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li a:hover{
+    color: rgb(26, 2, 129)!important;
+}
+ul li a {
+    color: rgb(79, 79, 148)!important;
+    font-weight: bold;
+}
+.navbar-nav{
+    text-align: right;
+}
+ .navbar-toggler{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.search-job{
+    padding: 10px 0;
+    margin-top: 55px;
+}
+
+.search-job .form-control{
+    max-width: 200px;
+    margin: 10px 5px ;
+    border-radius: 0;
+    box-shadow: 3px 3px 2px rgb(187, 181, 255) ;
+}
+.search-job #button{
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px 50px;
+    background-color: rgb(79, 79, 148);
+    font-weight: bold;
+    color: #fff;
+}
+.search-job #button:hover{
+    background-color: white;
+    color: rgb(79, 79, 148);
+    border: 1px solid;
+}
+/*Jobs*/
+#jobs h1{
+    margin-bottom: 30px;
+}
+.company-details{
+    box-shadow: 2px 2px 4px 2px grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.job-update{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.job-update small{
+    background: rgb(187, 181, 255);
+    padding: 1px 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+.job-update a{
+    color: rgb(79, 79, 148);
+    font-weight: bold;
+    
+}
+.job-update a:hover{
+    color: rgb(26, 2, 129);
+    text-decoration: none;
+}
+.apply-btn{
+    height: 45px;
+    background-color:#fff;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+
+}
+.apply-btn .btn-primary{
+    padding: 3px 30px ;
+    float: right;
+    box-shadow: none;
+    background-color: rgb(79, 79, 148);
+    border: none;
+    color: #fff;
+}
+.apply-btn .btn-primary:hover{
+    background-color: white;
+    color: rgb(79, 79, 148);
+    border: 1px solid rgb(79, 79, 148);
+}
+.job-update p{
+    margin-bottom: 0!important;
+    
+}
+.link a{
+    
+    color: rgb(79, 79, 148);
+    font-weight: bold;
+    font-size: 17px;
+}
+.link a:hover{
+    color: rgb(32, 32, 70);
+    text-decoration: none;
+}
+/*footer*/
+.footer-top{
+    background: rgb(32, 32, 70);
+    padding: 50px 0;
+    margin-top: 40px;
+}
+.footer-top .xy{
+    margin-bottom: 50px;
+}
+.footer-top p{
+    color:#fff;
+    line-height: 25px;
+}
+.footer-top h3{
+    color: #fff;
+    font-size: 18px;
+}
+.segment-one h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0;
+}
+.segment-two h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.segment-two h3::before{
+    content: '|';
+    color: rgb(79, 79, 148);
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: rgb(187, 181, 255)!important;
+}
+.segment-two ul li a:hover{
+    text-decoration: none;
+    color: rgb(79, 79, 148)!important;
+}
+.segment-three h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.segment-three h3::before{
+    content: '|';
+    color: rgb(79, 79, 148);
+    padding-right: 10px;
+}
+.segment-three a{
+    background: rgb(187, 181, 255);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+}
+.segment-three a:hover{
+    border: 1px solid rgb(187, 181, 255);
+    background: transparent;  
+}
+.segment-four h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.segment-four h3::before{
+    content: '|';
+    color: rgb(79, 79, 148);
+    padding-right: 10px;
+}
+.segment-four form #subscribe{
+    background: rgb(187, 181, 255);
+    border: none;
+    color:rgb(79, 79, 148);   
+    padding: 2px;
+    font-weight: bold;
+}
+.segment-four form #subscribe:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+.segment-four form #form{
+    padding: 10px;
+}
+#footer-foot{
+    background: rgb(24, 24, 51);
+    color: #fff;
+    padding: 10px;
+    font-weight: lighter;
+}

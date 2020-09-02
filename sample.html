@@ -1,0 +1,87 @@
+<div class="card-footer">
+    <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-facebook-f 2x mx-5 "></i></a>
+    <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-twitter 2x mx-5"></i></a>
+    <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-linkedin-in 2x mx-5"></i></a>
+    <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-instagram 2x mx-5"></i></a>
+    <a href="#"><i style=" color: rgb(79, 79, 148); " class="fab fa-github 2x mx-5"></i></a>
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col">
+        <h5 class="ml-3 my-3">HTML5</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 98%; background-color: rgb(79, 79, 148);">98%</div>
+        </div>
+
+        <h5 class="ml-3 my-3">CSS</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 95%; background-color: rgb(79, 79, 148);">95%</div>
+        </div>
+
+        <h5 class="ml-3 my-3">Javascript</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 99%; background-color: rgb(79, 79, 148);">99%</div>
+        </div>
+
+        <h5 class="ml-3 my-3">BootStrap</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 95%; background-color: rgb(79, 79, 148);">95%</div>
+        </div>
+
+        <h5 class="ml-3 my-3">React Programming</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 90%; background-color: rgb(79, 79, 148);">90%</div>
+        </div>
+
+        <h5 class="ml-3 my-3">Interface Design and Prototyping</h5>
+        <div class="progress mx-3">
+            <div class="progress-bar" style="width: 85%; background-color: rgb(79, 79, 148);">85%</div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script>
+        function Circlle(el) {
+            $(el).circleProgress({ fill: { color: 'rgb(79, 79, 148)' } })
+                .on('circle-animation-progress', function (event, progress, stepValue) {
+                    $(this).find('strong').text(String(stepValue.toFixed(2)) + '%');
+                });
+        };
+        Circlle('.round');
+    </script>
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="round" data-value="0.97" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span id="bar"><i style="color: rgb(79, 79, 148); font-size: 22px; margin-right: 7px;"
+                    class="fab fa-html5"></i>HTML5</span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="round" data-value="0.95" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span id="bar"><i style="color: rgb(79, 79, 148); font-size: 22px; margin-right: 7px;"
+                    class="fab fa-css3"></i>CSS3</span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="round" data-value="0.90" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span id="bar"><i style="color: rgb(79, 79, 148); font-size: 22px; margin-right: 7px;"
+                    class="fab fa-js"></i>Javascript</span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="round" data-value="0.87" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span id="bar"><i style="color: rgb(79, 79, 148); font-size: 22px; margin-right: 7px;"
+                    class="fa fa-laptop"></i>Bootstrap</span>
+        </div>
+    </div>
+</div>
+</div>
+<button class="btn" onclick="Circlle">View Progress</button>
